@@ -180,7 +180,9 @@ if (document.querySelector('#game.over')) {
 
 
 
-
+document.getElementById('game').addEventListener('click', function(){
+    // game start
+});
 
 
 document.getElementById('newGameBtn').addEventListener('click', () => {
