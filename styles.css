@@ -1,0 +1,115 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(23, 23, 26);
+    color: rgb(255, 255, 255);
+    margin: 100px 32vw;
+}
+#all{
+    background-color: rgb(67, 68, 74);
+    padding: 20px 50px;
+    width: 580px;
+    border-radius: 10px;
+}
+
+#header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+
+#buttons{
+    text-align: right;
+}
+
+#info{
+    color: rgb(240, 76, 26);
+    font-size: 30px;
+}
+
+button{
+    background-color: rgb(233, 179, 31);
+    border: none;
+    padding: 9px 16px;
+    border-radius: 10px;
+    color: rgb(32, 30, 30);
+    cursor: pointer;
+    font-size: 15px;
+    
+}
+
+#words{
+
+font-size: 22px;
+
+}
+
+#game{
+    margin-top: 65px;
+    line-height: 35px;
+    height: 105px;
+    overflow: hidden;
+}
+
+div.word{
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.letter.correct{
+    color: rgb(75, 213, 75);
+}
+
+.letter.incorrect{
+    color: rgb(224, 35, 35);
+}
+
+img{
+    height: 380px;
+    padding: 0px 138px;
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#cursor{
+    width: 2px;
+    height: 1.5rem;
+    background: pink;
+    position: fixed;
+    top: 334px;
+    left: 668px;
+    //animation: blink .4s infinite;
+}
+
+@media screen and (min-width: 0px) and (max-width:800px){
+    body{
+        font-family: sans-serif;
+        background-color: rgb(23, 23, 26);
+        color: rgb(255, 255, 255);
+        margin: 0px 0vw;
+    }
+    #all{
+        background-color: rgb(23, 23, 26);
+        padding: 50px 5vw;
+        width: 400px;
+        border-radius: 0px;
+    }
+    img{
+        height: 300px;
+        padding: 20px 40px;
+    }
+    #game{
+        margin-top: 65px;
+        line-height: 35px;
+        height: 175px;
+        overflow: hidden;
+    }
+}
+
