@@ -97,13 +97,13 @@ img{
     }
     #all{
         background-color: rgb(23, 23, 26);
-        padding: 30px 5vw;
+        padding: 20px 5vw;
         width: 370px;
         border-radius: 0px;
     }
     img{
-        height: 280px;
-        padding: 20px 40px;
+        height: 260px;
+        padding: 20px 60px;
     }
     #game{
         margin-top: 65px;
