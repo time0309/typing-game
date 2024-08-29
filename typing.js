@@ -155,7 +155,7 @@ if (document.querySelector('#game.over')) {
 
 
     // move lines / words
-    if (currentWord.getBoundingClientRect().top > 380) {
+    if (currentWord.getBoundingClientRect().top > 350) {
         const words = document.getElementById('words');
         const margin = parseInt(words.style.marginTop || '0px');
         words.style.marginTop = (margin - 35) + 'px';
