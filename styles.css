@@ -88,6 +88,11 @@ img{
     //animation: blink .4s infinite;
 }
 
+#far{
+    position:absolute;
+    top: 440px;
+    opacity: 0;
+}
 @media screen and (min-width: 0px) and (max-width:800px){
     body{
         font-family: sans-serif;
@@ -108,8 +113,13 @@ img{
     #game{
         margin-top: 65px;
         line-height: 35px;
-        height: 105px;
+        height: 175px;
         overflow: hidden;
     }
+    #far{
+        position:absolute;
+        top: 440px;
+        opacity: 100;
+    }
+    
 }
-
