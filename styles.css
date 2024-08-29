@@ -107,8 +107,8 @@ img{
         border-radius: 0px;
     }
     img{
-        height: 260px;
-        padding: 20px 60px;
+        height: 180px;
+        padding: 20px 140px;
     }
     #game{
         margin-top: 65px;
@@ -118,7 +118,7 @@ img{
     }
     #far{
         position:absolute;
-        top: 440px;
+        top: 420px;
         opacity: 100;
     }
     
