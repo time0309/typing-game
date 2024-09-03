@@ -34,7 +34,7 @@ function newGame() {
     addClass(document.querySelector('.letter'), 'current');
     window.timer = null;
     window.gameStart = null;
-   
+    document.getElementById('far').focus();
 }
 
 
