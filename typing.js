@@ -191,3 +191,4 @@ document.getElementById('newGameBtn').addEventListener('click', () => {
 });
 
 newGame();
+document.getElementById('far').focus();
