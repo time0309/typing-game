@@ -189,6 +189,6 @@ document.getElementById('newGameBtn').addEventListener('click', () => {
     gameOver();
     newGame();
 });
-
-newGame();
 document.getElementById('far').focus();
+newGame();
+
