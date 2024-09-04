@@ -119,7 +119,7 @@ img{
     #far{
         position:absolute;
         top: 420px;
-        opacity: 100;
+        opacity: 0;
     }
     
 }
