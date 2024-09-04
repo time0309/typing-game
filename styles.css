@@ -90,7 +90,7 @@ img{
 
 #far{
     position:absolute;
-    top: 440px;
+    top: 420px;
     opacity: 0;
 }
 @media screen and (min-width: 0px) and (max-width:800px){
